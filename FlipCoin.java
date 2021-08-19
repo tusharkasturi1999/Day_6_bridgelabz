@@ -10,7 +10,7 @@ public class FlipCoin {
 		int tailcount =0; 
 		
 		System.out.println("Enter the number of flips: ");
-		int N = sc.nextInt();
+		int N = Math.abs(sc.nextInt());
 		for(int i=1;i<=N;i++) {
 			Double toss = Math.random();
 			

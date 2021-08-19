@@ -17,6 +17,7 @@ public class Quadratic {
 		double b=sc.nextDouble();
 		double c=sc.nextDouble();
 		quadratic(a,b,c);
+		sc.close();
 	}
 
 }

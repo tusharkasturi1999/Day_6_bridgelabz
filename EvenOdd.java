@@ -14,7 +14,7 @@ public class EvenOdd {
 		else {
 			System.out.println("The number "+number+" is ODD");
 		}
-		
+		sc.close();
 		
 	}
 

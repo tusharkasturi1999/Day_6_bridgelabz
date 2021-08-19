@@ -17,6 +17,7 @@ public class QuotientRemainder {
 		
 		System.out.println("Quotient : "+Quotient);
 		System.out.println("Remainder : "+Remainder);
+		sc.close();
 	}
 
 }

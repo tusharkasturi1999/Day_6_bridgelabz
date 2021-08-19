@@ -13,7 +13,7 @@ public class PowerOfTwo {
 		{
 			System.out.println((int)Math.pow(2, i));
 		}
-		
+		sc.close();
 	}
 
 }

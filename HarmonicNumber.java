@@ -16,6 +16,7 @@ public class HarmonicNumber {
 			val = val + (1.0/i);
 		}
 		System.out.println(val);
+		sc.close();
 	}
 
 }

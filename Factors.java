@@ -18,7 +18,7 @@ public class Factors {
 	      if(N >2) {
 	         System.out.println(N);
 	      }
-				
+	      sc.close();	
 			}
 			
 		

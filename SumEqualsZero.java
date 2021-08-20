@@ -2,6 +2,7 @@ package com.day8PracticeProblems;
 
 import java.util.Scanner;
 
+//This is the method to find triplets
 public class SumEqualsZero {
 	public static void sumequalszero(int[] arr, int n) {
 		boolean found = false;
@@ -27,9 +28,10 @@ public class SumEqualsZero {
 	public static void main( String[] args ) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number of elements in the array : ");
-		int n = sc.nextInt();
+		int n = sc.nextInt(); //@param n This is the parameter used to intake value n 
 		int[] arr = new int[n];
 		System.out.println("Enter the elements of the array :");
+		// This is the loop to intake values to arrays
 		for(int i=0;i<n;i++) {
 			arr[i]=sc.nextInt();
 		}

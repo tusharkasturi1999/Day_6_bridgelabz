@@ -6,7 +6,7 @@ public class LeapYear {
 	public static void main( String[] args ) {
 		Scanner sc = new Scanner(System.in);
 		
-		int year = 0;
+		int year = 0; //@param year This is the parameter used to intake value for the year to be tested 
 		boolean leap = false;
 		
 		while( year<999 || year>10000) {

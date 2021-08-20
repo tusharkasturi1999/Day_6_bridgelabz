@@ -7,7 +7,7 @@ public class EvenOdd {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number to check : ");
-		int number = sc.nextInt();
+		int number = sc.nextInt(); //@param number This is the parameter to select number to be tested 
 		if(number%2==0) {
 			System.out.println("The number "+number+" is Even");
 		}

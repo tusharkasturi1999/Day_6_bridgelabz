@@ -8,12 +8,13 @@ public class Swap {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter the first number : ");
-		int a = sc.nextInt();
+		int a = sc.nextInt();//@param NaThis is the parameter used to intake value a 
 		
 		System.out.println("Enter the second number : ");
-		int b = sc.nextInt();
+		int b = sc.nextInt();//@param b This is the parameter used to intake value b 
 		
 		System.out.println("Before Swap : a = "+a+" b = "+b);
+		//This is the method to swap
 		a=a+b;
 		b=a-b;
 		a=a-b;

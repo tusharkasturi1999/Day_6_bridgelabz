@@ -28,12 +28,12 @@ public class Array2D {
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the values of M & N for a MXN Array : ");
-		int m = sc.nextInt();
-		int n = sc.nextInt();
+		int m = sc.nextInt(); //@param m This is the parameter for rows 
+		int n = sc.nextInt(); //@param n This is the parameter for column 
 		int[][] arr = new int[m][n];
-		create(arr,m,n);
-		print(arr,m,n);
-		sc.close();
+		create(arr,m,n); //This method is used to create an array
+		print(arr,m,n);  //This method is used to print the array
+		sc.close	();
 	}
 
 }

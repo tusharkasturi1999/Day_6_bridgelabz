@@ -12,7 +12,7 @@ public class QuotientRemainder {
 		System.out.println("Enter the Divisor ");
 		int Divisor = sc.nextInt();
 		
-		double Quotient = Number/Divisor;
+		double Quotient = Number/Divisor; 
 		double Remainder = (Number)%Divisor;
 		
 		System.out.println("Quotient : "+Quotient);

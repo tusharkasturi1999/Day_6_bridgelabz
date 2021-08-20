@@ -6,8 +6,8 @@ public class FlipCoin {
 		
 		Scanner sc = new Scanner(System.in);
 
-		int headcount =0;
-		int tailcount =0; 
+		int headcount =0; //@param headcount This is the parameter used to count no of heads 
+		int tailcount =0; //@param tailcount This is the parameter used to count no of tails 
 		
 		System.out.println("Enter the number of flips: ");
 		int N = Math.abs(sc.nextInt());

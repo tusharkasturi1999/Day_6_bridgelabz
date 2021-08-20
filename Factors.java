@@ -7,7 +7,7 @@ public class Factors {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the value of N :");
-		int N = sc.nextInt();
+		int N = sc.nextInt(); //@param N This is the parameter to input N
 		
 		for(int i=2;i*i<=N;i++) {
 			while(N%i == 0) {
